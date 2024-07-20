@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.draggable {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
+
+.form-builder {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+}
+
+.component-wrapper {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  margin-top: 20px;
+}
+
+.remove-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.modal-content h3 {
+  margin-top: 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option input {
+  flex: 1;
+  margin-right: 10px;
+}
